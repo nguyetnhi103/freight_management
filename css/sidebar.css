@@ -1,9 +1,15 @@
+*{
+    text-decoration: none;
+    font-family: system-ui, Roboto;
+    object-fit: cover;
+    margin: 0;
+}
 .sidebar {
     height: 100vh;
     left: 0;
     top: 0;
     position: fixed;
-    width: 295px;
+    width: 285px;
     background-color: rgb(255, 237, 240);
 }
 .sidebar .logo {
@@ -14,7 +20,7 @@
     font-size: 18px;
     font-weight: 400;
     color: var(--grey-color);
-    padding: 15px 25px 15px 0px;
+    padding: 15px 20px 15px 0px;
     background: #fff;
     transition: .3s;
     position: relative;
@@ -33,4 +39,31 @@
 }
 .sidebar #sidebar_menu li {
     list-style-type: none;           
+}
+
+/* Nav-bar */
+.nav-bar {
+    background-color: var(--violet-color);
+}
+.infor {
+    display: flex;
+    padding-right: 25px;
+}
+.avt {
+    padding: 20px;
+}
+.avt img {
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 1295px;
+}
+.name, .icon-down{
+    margin-top: 30px;
+}
+.icon-down {
+    margin-left: 15px;
+}
+.name strong{
+    font-size: 15px;
+    color: var(--sky-color);
 }
