@@ -3,18 +3,18 @@
     left: 0;
     top: 0;
     position: fixed;
-    width: 270px;
-    background-color: pink;
+    width: 295px;
+    background-color: rgb(255, 237, 240);
 }
 .sidebar .logo {
     margin: 30px;
     padding: 33px 30px;
 }
 .sidebar #sidebar_menu li a {
-    font-size: 16.5px;
+    font-size: 18px;
     font-weight: 400;
     color: var(--grey-color);
-    padding: 15px 25px 15px 30px;
+    padding: 15px 25px 15px 0px;
     background: #fff;
     transition: .3s;
     position: relative;
@@ -31,7 +31,6 @@
     -webkit-transition: .5s;
     transition: .5s
 }
-.sidebar #sidebar_menu li ul{
-    padding: 0 0 0 70px;
+.sidebar #sidebar_menu li {
     list-style-type: none;           
 }
