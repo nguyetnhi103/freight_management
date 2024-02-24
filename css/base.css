@@ -12,3 +12,6 @@
     --green-pastel-color: linear-gradient(180deg,#a805f4,#1e4ca265);
     --green-color: #008900;
 }
+.fa-solid {
+    color: var(--grey-color);
+}

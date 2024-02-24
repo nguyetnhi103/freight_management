@@ -4,12 +4,16 @@
     object-fit: cover;
     margin: 0;
 }
+body {
+    display: flex;
+    justify-content: space-between;
+}
 .sidebar {
     height: 100vh;
     left: 0;
     top: 0;
-    position: fixed;
-    width: 285px;
+    /* position: fixed; */
+    width: 340px;
     background-color: rgb(255, 237, 240);
 }
 .sidebar .logo {
@@ -43,11 +47,15 @@
 
 /* Nav-bar */
 .nav-bar {
-    background-color: var(--violet-color);
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(255, 237, 240);
+    width: 100%;
+    height: 85px;
+    padding-right: 25PX;
 }
 .infor {
     display: flex;
-    padding-right: 25px;
 }
 .avt {
     padding: 20px;
@@ -55,7 +63,6 @@
 .avt img {
     height: 45px;
     border-radius: 50%;
-    margin-left: 1295px;
 }
 .name, .icon-down{
     margin-top: 30px;
@@ -63,7 +70,7 @@
 .icon-down {
     margin-left: 15px;
 }
-.name strong{
-    font-size: 15px;
-    color: var(--sky-color);
+.name span{
+    font-size: 16px;
+    color: var(--grey-color);
 }
