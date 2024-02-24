@@ -46,13 +46,15 @@ body {
 }
 
 /* Nav-bar */
+.main{
+    width: 100%;
+}
 .nav-bar {
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(255, 237, 240);
-    width: 100%;
+    padding-right: 25px;
     height: 85px;
-    padding-right: 25PX;
+    background-color: rgb(255, 237, 240);
 }
 .infor {
     display: flex;
