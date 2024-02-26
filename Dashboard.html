@@ -22,23 +22,23 @@
             <li>
                 <a href=""><span><i class="fa-solid fa-list-ul"></i>Danh sách đơn hàng</span></a>
             </li>
-            <li>
-                <a href=""><span><i class="fa-regular fa-folder"></i></i>Tạo đơn</span></a>
-                <ul>
-                    <li><a href=""><span><i class="fa-regular fa-file-lines"></i>Đơn lẻ</span></a></li>
-                    <li><a href=""><span><i class="fa-regular fa-file-excel"></i>Đơn hàng loạt</span></a></li>
-                </ul>
-            </li>
-            <li>
-                <a href=""><span><i class="fa-solid fa-user-group"></i>Nhân viên</span></a>
-                <ul>
-                    <li><a href=""><span><i class="fa-regular fa-address-card"></i>Thông tin cá nhân</span></a></li>
-                    <li><a href=""><span><i class="fa-regular fa-calendar"></i>Ca làm việc</span></a></li>
-                </ul>
-            </li>
+
+            <button class="toggleButton" onclick="order_Menu()"><span style="font-size: 16px; color: var(--grey-color);"><i class="fa-regular fa-folder"></i>Tạo đơn</span></button>
+
+            <ul class="menu">
+                <li><a href=""><span><i class="fa-regular fa-file-lines"></i>Đơn lẻ</span></a></li>
+                <li><a href=""><span><i class="fa-regular fa-file-excel"></i>Đơn hàng loạt</span></a></li>
+            </ul>
             <li>
                 <a href=""><span><i class="fa-regular fa-folder-closed"></i>Nhập kho</span></a>
             </li>
+            <button class="toggleButton" onclick="staff_Menu()"><span style="font-size: 16px; color: var(--grey-color);"><i class="fa-regular fa-folder"></i>Nhân viên</span></button>
+
+            <ul class="staff">
+                <li><a href=""><span><i class="fa-regular fa-file-lines"></i>Thông tin cá nhân</span></a></li>
+                <li><a href=""><span><i class="fa-regular fa-file-excel"></i>Ca làm việc</span></a></li>
+            </ul>
+            
         </ul>
     </nav>
     <nav class="main">
@@ -56,5 +56,7 @@
             </div>
         </div>
         
+    
+    <script src="js/sidebar.js"></script>
 </body>
 </html>
