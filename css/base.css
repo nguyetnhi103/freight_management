@@ -1,7 +1,8 @@
 :root {
+    --blue-color: #5B6BDC;
     --white-color: #fff;
     --black-color: #505050;
-    --grey-color: #7e7172;;
+    --grey-color: #7e7172;
     --red-color: #e70f0f;
     --pink-color: #e08282;
     --yellow-color: #FFD62C;
@@ -11,6 +12,7 @@
     --violet-color: #eac9f9;
     --green-pastel-color: linear-gradient(180deg,#a805f4,#1e4ca265);
     --green-color: #008900;
+    --body-color: #F7FAFF;
 }
 .fa-solid {
     color: var(--grey-color);
