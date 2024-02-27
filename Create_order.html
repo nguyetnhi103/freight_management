@@ -61,13 +61,13 @@
                 <div class="person-receive">
                     <strong>Người nhận</strong>
                     <div class="person-name">
-                        <div class="person-infor">                              
+                        <div class="person person-infor">                              
                             <form id="myForm1" onsubmit="showInput(event)">
                                 <label for="fname1">Họ và tên:</label><br>
                                 <input type="text" id="fname1" name="fname1" placeholder="Nhập họ tên...">
                             </form>
                         </div>
-                        <div class="person-infor">
+                        <div class="person person-num">
                             <form id="myForm2" onsubmit="showInput(event)">
                                 <label for="fname2">Số điện thoại</label><br>
                                 <input type="text" id="fname2" name="fname2" placeholder="Nhập số điện thoại...">
@@ -76,7 +76,7 @@
                     </div>
                     <div class="person-address">   
                         <label for="fname3">Địa chỉ:</label><br>                                        
-                        <div class="detail-add">
+                        <div class="person detail-add">
                             <div class="row justify-content-md-center p-2">
                                 <div class="col-md-auto">
                                     <select class="form-select form-select-sm mb-3" id="city" aria-label=".form-select-sm">
@@ -94,7 +94,7 @@
                             </div>
                         </div>      
                         
-                        <div class="person-add">
+                        <div class="person person-add">
                             <form id="myForm3" onsubmit="showInput(event)">
                                 <input type="text" id="fname3" name="fname3" placeholder="Nhập địa chỉ...">
                             </form>                           
@@ -105,13 +105,13 @@
                 <div class="person-send">
                     <strong>Người gửi</strong>
                     <div class="person-name">
-                        <div class="person-infor">                              
+                        <div class="person person-infor">                              
                             <form id="myForm4" onsubmit="showInput(event)">
                                 <label for="fname4">Họ và tên:</label><br>
                                 <input type="text" id="fname4" name="fname4" placeholder="Nhập họ tên...">
                             </form>
                         </div>
-                        <div class="person-infor">
+                        <div class="person person-num">
                             <form id="myForm5" onsubmit="showInput(event)">
                                 <label for="fname5">Số điện thoại</label><br>
                                 <input type="text" id="fname5" name="fname5" placeholder="Nhập số điện thoại...">
@@ -120,7 +120,7 @@
                     </div>
                     <div class="person-address">   
                         <label for="fname6">Địa chỉ:</label><br>                                        
-                        <div class="detail-add">
+                        <div class="person detail-add">
                             <div class="row justify-content-md-center p-2">
                                 <div class="col-md-auto">
                                     <select class="form-select form-select-sm mb-3" id="secity" aria-label=".form-select-sm">
@@ -138,12 +138,115 @@
                             </div>
                         </div>      
                         
-                        <div class="person-add">
+                        <div class="person person-add">
                             <form id="myForm6" onsubmit="showInput(event)">
                                 <input type="text" id="fname6" name="fname6" placeholder="Nhập địa chỉ...">
                             </form>                           
                         </div>  
                     </div>
+                </div>
+            </div>
+            <!-- Hàng hóa  -->
+            <div class="person-items">
+                <div class="items-order">
+                    <strong>Hàng hóa</strong>
+                    <div class="items-name">
+                        <div class="items items-infor">                              
+                            <form id="myForm7" onsubmit="showInput(event)">
+                                <label for="fname7">Tên sản phẩm</label><br>
+                                <input type="text" id="fname7" name="fname7" placeholder="Nhập tên sản phẩm...">
+                            </form>
+                        </div>
+                        <div class="items items-num">
+                            <form id="myForm8" onsubmit="showInput(event)">
+                                <label for="fname8">Số lượng</label><br>
+                                <input type="text" id="fname8" name="fname8" placeholder="Nhập số lượng...">
+                            </form>                            
+                        </div>
+                    </div> 
+                    <!-- Khối lượng  -->
+                    <div class="items items-weight">
+                        <label for="fname9">Khối lượng (kg)</label><br>                                        
+                        <form id="myForm9" onsubmit="showInput(event)">
+                            <input type="text" id="fname9" name="fname9" placeholder="Nhập tổng khối lượng...">
+                        </form>                           
+                    </div> 
+    
+                    <!-- Kích cỡ  -->
+                    <label for="fname9">Kích cỡ (m)</label><br>                                        
+                    <div class="items-backgr">
+                        <div class="items-size">
+                            <div class="items items-width">                         
+                                <label>Chiều dài</label>                                      
+                                <form action="">
+                                    <select name="size" id="size">
+                                        <option value="">Dưới 0.5</option>
+                                        <option value="">Từ 0.5 - 1.5</option>
+                                        <option value="">Trên 1.5</option>
+                                  </select>
+                                </form>
+                            </div>
+                            
+                            <div class="items items-wide">
+                                <label>Chiều rộng</label>                                      
+                                <form action="">
+                                    <select name="size" id="size">
+                                        <option value="">Dưới 0.5</option>
+                                        <option value="">Từ 0.5 - 1.5</option>
+                                        <option value="">Trên 1.5</option>
+                                  </select>
+                                </form>                         
+                            </div>
+                            <div class="items items-high">
+                                <label>Chiều cao</label>                                      
+                                <form action="">
+                                    <select name="size" id="size">
+                                        <option value="">Dưới 0.5</option>
+                                        <option value="">Từ 0.5 - 1.5</option>
+                                        <option value="">Trên 1.5</option>
+                                  </select>
+                                </form>                          
+                            </div>
+                        </div> 
+                    </div>                             
+                </div>
+            </div>
+
+            <!-- Vận chuyển -->
+            <div class="person-transform">
+                <strong>Hàng hóa</strong>
+                <div class="transform-name">
+                    <div class="person transform-infor">                              
+                        <form id="myForm13" onsubmit="showInput(event)">
+                            <label for="fname13">Thu hộ COD</label><br>
+                            <input type="text" id="fname13" name="fname13" placeholder="Nhập họ tên...">
+                        </form>
+                    </div>
+                    <div class="person transform-num">
+                        <form id="myForm14" onsubmit="showInput(event)">
+                            <label for="fname14">Tổng tiền hàng</label><br>
+                            <input type="text" id="fname14" name="fname14" placeholder="Nhập số điện thoại...">
+                        </form>                            
+                    </div>
+                </div>
+                
+                <div class="person transform-note">
+                    <form id="myForm15" onsubmit="showInput(event)">
+                        <label for="fname15">Ghi chú</label><br>
+                        <input type="text" id="fname15" name="fname15" placeholder="Nhập địa chỉ...">
+                    </form>                           
+                </div>  
+            </div>
+
+            <!-- Tạo đơn hàng -->
+            <div class="ship">
+                <div class="ship-order">
+                    <strong>Phí giao hàng - </strong>
+                </div>
+                <div class="create-ship">
+                    <form action="" method="get">
+                        <input type="submit" value="Tạo đơn hàng">
+                    </form>   
                 </div>
             </div>
         </div>
@@ -153,7 +256,7 @@
     <script src="js/create_order.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
-    <script src="js/receive_address.js"></script>
     <script src="js/send_address.js"></script>
+    <script src="js/receive_address.js"></script>
 </body>
 </html>
