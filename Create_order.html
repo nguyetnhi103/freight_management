@@ -102,7 +102,49 @@
 
                     </div>
                 </div>
-                <div class="person-send"></div>
+                <div class="person-send">
+                    <strong>Người gửi</strong>
+                    <div class="person-name">
+                        <div class="person-infor">                              
+                            <form id="myForm4" onsubmit="showInput(event)">
+                                <label for="fname4">Họ và tên:</label><br>
+                                <input type="text" id="fname4" name="fname4" placeholder="Nhập họ tên...">
+                            </form>
+                        </div>
+                        <div class="person-infor">
+                            <form id="myForm5" onsubmit="showInput(event)">
+                                <label for="fname5">Số điện thoại</label><br>
+                                <input type="text" id="fname5" name="fname5" placeholder="Nhập số điện thoại...">
+                            </form>                            
+                        </div>
+                    </div>
+                    <div class="person-address">   
+                        <label for="fname6">Địa chỉ:</label><br>                                        
+                        <div class="detail-add">
+                            <div class="row justify-content-md-center p-2">
+                                <div class="col-md-auto">
+                                    <select class="form-select form-select-sm mb-3" id="secity" aria-label=".form-select-sm">
+                                        <option value="" selected>Chọn tỉnh thành</option>           
+                                    </select>
+                                    
+                                    <select class="form-select form-select-sm mb-3" id="sedistrict" aria-label=".form-select-sm">
+                                        <option value="" selected>Chọn quận huyện</option>
+                                    </select>
+                      
+                                    <select class="form-select form-select-sm" id="seward" aria-label=".form-select-sm">
+                                        <option value="" selected>Chọn phường xã</option>
+                                    </select>
+                                </div>    
+                            </div>
+                        </div>      
+                        
+                        <div class="person-add">
+                            <form id="myForm6" onsubmit="showInput(event)">
+                                <input type="text" id="fname6" name="fname6" placeholder="Nhập địa chỉ...">
+                            </form>                           
+                        </div>  
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -111,6 +153,7 @@
     <script src="js/create_order.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
-    <script src="js/address.js"></script>
+    <script src="js/receive_address.js"></script>
+    <script src="js/send_address.js"></script>
 </body>
 </html>
