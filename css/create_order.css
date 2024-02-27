@@ -1,26 +1,72 @@
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.create-order, .person-name, .col-md-auto, .items-name, .items-size, .transform-name, .ship{
+  display: flex;
+}
+.person-receive, .person-send {
+  background-color: var(--white-color);
+  /* background-color: aquamarine; */
+  margin: 0px 10px 20px 20px;
+  padding: 15px;
+  width: 500px;
+}
+.person-name, .items-name, .transform-name, .items select {
+  margin-top: 10px;
+}
+.person label, .items label, label{
+  font-size: 13px;
+}
+.person input[type="text"] {
+  padding: 2px 5px;
+}
+.person input, .form-select{
+  width: 229.8px;
+  margin: 5px 15px 5px 0px;
+  padding: 2px;
+  color: var(--grey-color);
+  position: relative;
+  border: 1px solid var(--gray-color) ;
+}
+.items input {
+  width: 280px;
+  margin: 5px 15px 5px 0px;
+  padding: 2px;
+  color: var(--grey-color);
+  position: relative;
+  border: 1px solid var(--gray-color) ; 
+}
 
-  .items-width label {
-    font-size: 14px;
-  }
+.items-order, .person-transform, .ship {
+  background-color: var(--white-color);
+  /* background-color: aquamarine; */
+  margin: 0px 10px 20px 0px;
+  padding: 15px;
+  width: 597px;
+}
+.items-size {
+  background-color: var(--light-color);
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.items select {
+  width: 175px;
+  color: var(--grey-color);
+  border: 1px solid var(--gray-color) ; 
+}
+.ship {
+  justify-content: space-between;
+}
+.create-ship {
+  margin-right: 12px;
+}
+.create-ship input {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  border: 0px;
+  padding: 10px 15px;
+}
+.title {
+  font-weight: 700;
+  color: var(--blue-color);
+}
