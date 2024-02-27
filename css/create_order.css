@@ -14,19 +14,18 @@
 .person label, .items label, label{
   font-size: 13px;
 }
-.person input[type="text"] {
+.person input[type="text"], .items input[type="text"] {
   padding: 2px 5px;
 }
 .person input, .form-select{
   width: 229.8px;
   margin: 5px 15px 5px 0px;
-  padding: 2px;
   color: var(--grey-color);
   position: relative;
   border: 1px solid var(--gray-color) ;
 }
 .items input {
-  width: 280px;
+  width: 275px;
   margin: 5px 15px 5px 0px;
   padding: 2px;
   color: var(--grey-color);
