@@ -64,7 +64,9 @@
   background-color: var(--blue-color);
   color: var(--white-color);
   border: 0px;
+  border-radius: 5px;
   padding: 10px 15px;
+  box-shadow: 2px 2px 2px grey;
 }
 .title {
   font-weight: 700;

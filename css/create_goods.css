@@ -1,0 +1,30 @@
+.upload {
+    display: flex;
+}
+.upload-excel, .upload-file {
+    margin-left: 20px;
+}
+.upload input {
+    color: var(--white-color);
+    border: 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+.upload-excel input {
+    background-color: var(--blue-color);
+}
+.upload-file input {
+    background-color: var(--green-color);
+}
+.goods-backgr {
+    margin: 20px;
+    background-color: var(--white-color);
+}
+.goods-backgr th {
+    font-weight: 400;
+    background-color: var(--light-color);
+    padding: 5px;
+    width: 180px;
+    /* text-align: center; */
+}

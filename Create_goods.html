@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE GOODS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/create_goods.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <a href=""><img src="img/logo.png" alt=""></a>
+        </div>
+        <ul id="sidebar_menu" class="metismenu">
+            <li>
+                <a href=""><span><i class="fa-solid fa-house"></i>Thống kê</span></a>
+            </li>
+            <li>
+                <a href=""><span><i class="fa-solid fa-list-ul"></i>Danh sách đơn hàng</span></a>
+            </li>
+
+            <button class="toggleButton" onclick="order_Menu()"><span style="font-size: 16px; color: var(--grey-color);"><i class="fa-regular fa-folder"></i>Tạo đơn</span></button>
+
+            <ul class="menu">
+                <li><a href=""><span><i class="fa-regular fa-file-lines"></i>Đơn lẻ</span></a></li>
+                <li><a href=""><span><i class="fa-regular fa-file-excel"></i>Đơn hàng loạt</span></a></li>
+            </ul>
+            <li>
+                <a href=""><span><i class="fa-regular fa-folder-closed"></i>Nhập kho</span></a>
+            </li>
+            <button class="toggleButton" onclick="staff_Menu()"><span style="font-size: 16px; color: var(--grey-color);"><i class="fa-regular fa-folder"></i>Nhân viên</span></button>
+
+            <ul class="staff">
+                <li><a href=""><span><i class="fa-regular fa-file-lines"></i>Thông tin cá nhân</span></a></li>
+                <li><a href=""><span><i class="fa-regular fa-file-excel"></i>Ca làm việc</span></a></li>
+            </ul>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <div class="nav-bar">
+            <div class="infor">
+                <div class="avt">
+                   <a href=""><img src="img/avt.jpg" alt=""></a>
+                </div>
+                <div class="name">
+                    <span>Nguyệt</span>
+                </div>
+                <div class="icon-down">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="upload">
+            <div class="upload-excel">
+                <form action="" method="get">
+                    <input type="submit" value="Chọn file Excel">
+                </form>   
+            </div>
+            <div class="upload-file">
+                <form action="" method="get">
+                    <input type="submit" value="Tải file mẫu">
+                </form>   
+            </div>
+        </div>
+        <div class="goods-backgr">
+            <table>
+                <tr>
+                  <th style="width: 320px; text-align: left;">Người nhận</th> 
+                  <th style="width: 450px; text-align: left;">Địa chỉ nhận</th>
+                  <th>Hàng hóa</th>
+                  <th>Khối lượng (kg)</th>
+                  <th>Cước phí</th>
+                  <th>COD</th>
+                </tr>
+            </table>
+            <table>
+                
+                
+            </table>
+        </div>
+    </nav>
+
+    <script src="js/sidebar.js"></script>
+</body>
+</html>
