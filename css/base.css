@@ -14,6 +14,7 @@
     --green-color: #04a204;
     --body-color: #F7FAFF;
     --light-color: #f7f7f8;
+    --nblue-color:rgb(113, 126, 225);
 }
 .fa-solid {
     color: var(--grey-color);
