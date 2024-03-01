@@ -18,10 +18,10 @@ body {
     background-color: white;
 }
 .sidebar .logo {
-    margin: 15px 20px 25px 20px;
+    margin: 40px 20px 30px 50px;
 }
 .logo img {
-    height: 85px;
+    height: 48px;
 }
 .sidebar #sidebar_menu li a{
     font-size: 16px;

@@ -1,31 +1,27 @@
-.upload {
+.creat_time {
+    margin: 20px;
+}
+.infor_time {
     display: flex;
+    justify-content: space-between;
 }
-.upload-excel, .upload-file {
-    margin-left: 20px;
-}
-.upload input {
+.add_staff input {
     color: var(--white-color);
     border: 0px;
     padding: 10px 15px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
-}
-.upload-excel input {
     background-color: var(--blue-color);
 }
-.upload-file input {
-    background-color: var(--green-color);
-}
-.goods-backgr {
+
+.list_time {
     margin: 20px;
-    background-color: var(--white-color);
 }
-.goods-backgr th {
+.list_time th {
     font-weight: 400;
     background-color: var(--light-color);
     padding: 8px;
-    width: 180px;
+    width: 280px;
     border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 table, td {

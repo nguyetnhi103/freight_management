@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CREATE GOODS</title>
+    <title>STAFF</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/create_goods.css">
+    <link rel="stylesheet" href="css/staff.css">
 </head>
-<body>
+<body class="body" style="display: flex;">
+    <!-- sidebar -->
     <nav class="sidebar">
         <div class="logo">
             <a href=""><img src="img/logo.png" alt=""></a>
@@ -54,34 +55,22 @@
                 </div>
             </div>
         </div>
-        <div class="upload">
-            <div class="upload-excel">
-                <form action="" method="get">
-                    <input type="submit" value="Chọn file Excel">
-                </form>   
-            </div>
-            <div class="upload-file">
-                <form action="" method="get">
-                    <input type="submit" value="Tải file mẫu">
-                </form>   
-            </div>
+        <div class="add_staff">
+            <form action="" method="get">
+                <input type="submit" value="Thêm nhân viên">
+            </form>   
         </div>
-        <div class="goods-backgr">
+        <div class="staff-backgr">
             <table>
                 <tr>
-                  <th style="width: 320px; text-align: left;">Người nhận</th> 
-                  <th style="width: 450px; text-align: left;">Địa chỉ nhận</th>
-                  <th>Hàng hóa</th>
-                  <th>Khối lượng (kg)</th>
-                  <th>Cước phí</th>
-                  <th>COD</th>
-                  <th></th>
+                  <th>Họ tên</th> 
+                  <th>Số điện thoại</th>
+                  <th>Email</th>
+                  <th style="text-align: center"></th>
                 </tr>   
                         
             </table>
         </div>
-    </nav>
-
     <script src="js/sidebar.js"></script>
 </body>
 </html>

@@ -1,31 +1,24 @@
-.upload {
-    display: flex;
-}
-.upload-excel, .upload-file {
+.add_staff {
     margin-left: 20px;
 }
-.upload input {
+.add_staff input {
     color: var(--white-color);
     border: 0px;
     padding: 10px 15px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
-}
-.upload-excel input {
     background-color: var(--blue-color);
 }
-.upload-file input {
-    background-color: var(--green-color);
-}
-.goods-backgr {
+
+.staff-backgr {
     margin: 20px;
     background-color: var(--white-color);
 }
-.goods-backgr th {
+.staff-backgr th {
     font-weight: 400;
     background-color: var(--light-color);
     padding: 8px;
-    width: 180px;
+    width: 280px;
     border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 table, td {
@@ -33,6 +26,6 @@ table, td {
 }
 th, td {
     color: var(--grey-color);
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid rgba(135, 128, 128, 0.2);
 }
