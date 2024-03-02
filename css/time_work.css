@@ -5,9 +5,30 @@
     display: flex;
     justify-content: space-between;
 }
-.add_staff input {
+.create_today {
+    font-weight: 500;
+}
+hr {
+    margin: 20px 0 20px 0;
+    opacity: 0.5;
+}
+.infor_time {
+    background-color: var(--white-color);
+    padding: 15px 0 15px 25px;
+    border-radius: 5px;
+}
+.shift label {
+    color: var(--grey-color);
+}
+.shift select{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.create_shift input {
     color: var(--white-color);
     border: 0px;
+    margin: 20px 100px 20px 0;
     padding: 10px 15px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
