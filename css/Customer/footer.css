@@ -3,6 +3,12 @@
     color: #ffffff;
     padding: 45px 0 15px 0;
   }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
   
   .info_section h4 {
     font-weight: 600;

@@ -4,64 +4,56 @@
 <head>
   <!-- Basic -->
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="icon" href="img/fevicon.png" type="image/x-icon">
-  <title> FINANCE </title>
-  <link rel="stylesheet" type="text/css" href="css/Customer/bootstrap.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <link rel="stylesheet" href="css/Customer/style.css"/>
-  <link rel="stylesheet" href="css/Customer/responsive.css"/>
+  <title> FINANCE | HOME </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/Customer/nab_bar.css">
+  <link rel="stylesheet" href="css/Customer/home.css">
+  <link rel="stylesheet" href="css/Customer/footer.css">
 
 </head>
-<body>
-
+<body class="sub_page">
   <div class="hero_area">
-    <!-- header section strats -->
     <header class="header_section">
       <div class="header_top">
-        <div class="container-fluid ">
-          <div class="contact_nav">
-            
-          </div>
         </div>
-      </div>
-      <div class="header_bottom">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg custom_nav-container ">
-              <img src="img/logo.png" alt="">
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="Home.html">Trang chủ<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Our_service.html">Dịch vụ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="About_us.html">Về chúng tôi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Price.html">Giá cả</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Contact_us.html">Liên hệ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Login_customer.html"><i class="fa-solid fa-user"></i>Đăng nhập</a>
-                </li>
-                <form class="form-inline">
-                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                  </button>
-                </form>
-              </ul>
+            <div class="header_bottom">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg custom_nav-container ">
+                        <img src="img/logo.png" alt="">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="Home.html" style="color: var(--blue-color);">Trang chủ<span class="sr-only"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Our_service.html">Dịch vụ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="About_us.html">Về chúng tôi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Price.html">Giá cả</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Contact_us.html">Liên hệ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Login_customer.html"><i class="fa-solid fa-user"></i><span style="margin-left: 5px;"> Đăng nhập</span></a>
+                                </li>
+                                <form class="form-inline">
+                                    <button class="btn  nav_search-btn" type="submit"> <i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
-          </nav>
-        </div>
       </div>
     </header>
+  </div>
+
 
     <!-- slider section -->
     <section class="slider_section ">
@@ -81,7 +73,7 @@
                     <p>
                       Cung cấp nhiều lựa chọn về phương tiện vận chuyển, từ xe tải, tàu biển, đến máy bay                    </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="Our_service.html" class="btn1">
                         Xem thêm
                       </a>
                     </div>
@@ -102,7 +94,7 @@
                       Có thể lựa chọn gói dịch vụ với mức giá phù hợp với nhu cầu thực tế
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="Price.html" class="btn1">
                         Xem thêm
                       </a>
                     </div>
@@ -123,7 +115,7 @@
                       Có thể nhận hàng tại địa chỉ mong muốn giúp giảm bớt thời gian và công sức.                   
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="Contact_us.html" class="btn1">
                         Xem thêm
                       </a>
                     </div>
@@ -141,11 +133,7 @@
       </div>
 
     </section>
-    <!-- end slider section -->
-  </div>
 
-
-  <!-- service section -->
 
   <section class="service_section layout_padding">
     <div class="service_container">
@@ -280,116 +268,6 @@
     </div>
   </section>
 
-  <!-- end track section -->
-
-  <!-- client section -->
-
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          What Says Our <span>Client</span>
-        </h2>
-      </div>
-      <div class="client_container">
-        <div class="carousel-wrap ">
-          <div class="owl-carousel">
-            <div class="item">
-              <div class="box">
-                <div class="detail-box">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  </p>
-                </div>
-                <div class="client_id">
-                  <div class="img-box">
-                    <img src="images/client-1.png" alt="" class="img-1">
-                  </div>
-                  <div class="name">
-                    <h6>
-                      Adipiscing
-                    </h6>
-                    <p>
-                      Magna
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="box">
-                <div class="detail-box">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  </p>
-                </div>
-                <div class="client_id">
-                  <div class="img-box">
-                    <img src="images/client-2.png" alt="" class="img-1">
-                  </div>
-                  <div class="name">
-                    <h6>
-                      Adipiscing
-                    </h6>
-                    <p>
-                      Magna
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="box">
-                <div class="detail-box">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  </p>
-                </div>
-                <div class="client_id">
-                  <div class="img-box">
-                    <img src="images/client-1.png" alt="" class="img-1">
-                  </div>
-                  <div class="name">
-                    <h6>
-                      Adipiscing
-                    </h6>
-                    <p>
-                      Magna
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="box">
-                <div class="detail-box">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  </p>
-                </div>
-                <div class="client_id">
-                  <div class="img-box">
-                    <img src="img/client-2.png" alt="" class="img-1">
-                  </div>
-                  <div class="name">
-                    <h6>
-                      Adipiscing
-                    </h6>
-                    <p>
-                      Magna
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end client section -->
-
   <!-- contact section -->
   <section class="contact_section">
     <div class="container-fluid">
@@ -397,7 +275,7 @@
         <div class="col-lg-4 col-md-5 offset-md-1">
           <div class="heading_container">
             <h2>
-              Contact Us
+              <span>Liên hệ</span> với chúng tôi
             </h2>
           </div>
         </div>
@@ -407,20 +285,20 @@
           <div class="form_container contact-form">
             <form action="">
               <div>
-                <input type="text" placeholder="Your Name" />
+                <input type="text" placeholder="Tên của bạn" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" placeholder="Số điện thoại" />
               </div>
               <div>
                 <input type="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" class="message-box" placeholder="Nhập nội dung" />
               </div>
               <div class="btn_box">
                 <button>
-                  SEND
+                  Gửi
                 </button>
               </div>
             </form>
@@ -436,117 +314,48 @@
       </div>
     </div>
   </section>
-  <!-- end contact section -->
-
   <!-- info section -->
 
   <section class="info_section layout_padding2">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-3 info_col">
-          <div class="info_contact">
-            <h4>
-              Address
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Location
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +01 1234567890
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  demo@gmail.com
-                </span>
-              </a>
+        <div class="row">
+            <div class="col-lg-3 info_col">
+                <div class="info_contact">
+                    <h4>Địa chỉ</h4>
+                    <div class="contact_link_box">
+                        <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i><span>Yên Nghĩa, Hà Đông, Hà Nội</span></a>
+                        <a href=""><i class="fa fa-phone" aria-hidden="true"></i><span>Call +84 123456789</span></a>
+                        <a href=""><i class="fa fa-envelope" aria-hidden="true"></i><span>finance@gmail.com</span></a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="info_social">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 info_col">
-          <div class="info_detail">
-            <h4>
-              Info
-            </h4>
-            <p>
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-2 mx-auto info_col">
-          <div class="info_link_box">
-            <h4>
-              Links
-            </h4>
-            <div class="info_links">
-              <a class="active" href="index.html">
-                <img src="images/nav-bullet.png" alt="">
-                Home
-              </a>
-              <a class="" href="about.html">
-                <img src="images/nav-bullet.png" alt="">
-                About
-              </a>
-              <a class="" href="service.html">
-                <img src="images/nav-bullet.png" alt="">
-                Services
-              </a>
-              <a class="" href="contact.html">
-                <img src="images/nav-bullet.png" alt="">
-                Contact Us
-              </a>
+            <div class="col-lg-3 info_col">
+                <div class="info_detail">
+                    <h4>Thông tin</h4>
+                    <p>Dịch vụ vận chuyển hàng hóa của chúng tôi được tạo ra dành riêng cho các doanh nghiệp vừa và nhỏ đang tìm kiếm cách để nâng cao hiệu suất hoạt động của mình.</p></div>
             </div>
-          </div>
+            <div class="col-lg-2 mx-auto info_col">
+                <div class="info_link_box">
+                    <h4>Trang</h4>
+                    <div class="info_links">
+                        <a class="active" href="Home.html">Trang chủ</a>
+                        <a class="" href="Our_service.html">Dịch vụ</a>
+                        <a class="" href="Our_service.html">Về chúng tôi</a>
+                        <a class="" href="Price.html">Giá cả</a>
+                        <a class="" href="Contact_us.html">Liên hệ</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-3 info_col ">
+                <h4>Đăng ký</h4>
+                <form action="#">
+                    <input type="text" placeholder="Nhập email" />
+                    <button type="submit">Đăng ký</button>
+                </form>
+            </div>
         </div>
-        <div class="col-md-6 col-lg-3 info_col ">
-          <h4>
-            Subscribe
-          </h4>
-          <form action="#">
-            <input type="text" placeholder="Enter email" />
-            <button type="submit">
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </div>
     </div>
   </section>
-
-  <!-- end info section -->
-
-  <!-- footer section -->
-  <section class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </section>
-  <!-- footer section -->
-
   <!-- jQery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
