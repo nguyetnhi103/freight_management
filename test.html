@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shipping Cost Calculator</title>
+</head>
+<style>
+    #priceDisplay {
+        position: absolute;
+        top: 300px;
+    }
+</style>
+<body>
+
+<select id="shippingMethod">
+  <option value="standard">Tiết kiệm</option>
+  <option value="express">Nhanh</option>
+  <option value="overnight">Hoả tốc</option>
+</select>
+
+<div id="priceDisplay"></div> 
+
+<script>
+  var dropdown = document.getElementById("shippingMethod");
+  var priceDisplay = document.getElementById("priceDisplay");
+
+  dropdown.addEventListener("change", function() {
+    var selectedValue = dropdown.value;
+    var shippingCost = calculateShippingCost(selectedValue);
+    priceDisplay.textContent = "Giá vận chuyển: " + shippingCost + " đ"; // Cập nhật nội dung của phần tử
+  });
+
+  function calculateShippingCost(method) {
+    // Giả sử có các giá vận chuyển khác nhau cho từng phương thức
+    if (method === "standard") {
+      return 50000;
+    } else if (method === "express") {
+      return 100000;
+    } else if (method === "overnight") {
+      return 200000;
+    } else {
+      return "Không xác định";
+    }
+  }
+</script>
+
+</body>
+</html>
