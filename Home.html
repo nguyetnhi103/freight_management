@@ -43,7 +43,7 @@
                                     <a class="nav-link" href="Login_customer.html"><i class="fa-solid fa-user"></i><span style="margin-left: 5px;"> Đăng nhập</span></a>
                                 </li>
                                 <form class="form-inline">
-                                    <button class="btn  nav_search-btn" type="submit"> <i class="fa fa-search" aria-hidden="true"></i></button>
+                                    <button class="btn nav_search-btn" onclick="scrollToSearch()"> <i class="fa fa-search" ></i></button>
                                 </form>
                             </ul>
                         </div>
@@ -70,8 +70,7 @@
                     <h1>
                       Đa dạng phương tiện
                     </h1>
-                    <p>
-                      Cung cấp nhiều lựa chọn về phương tiện vận chuyển, từ xe tải, tàu biển, đến máy bay                    </p>
+                    <i>Cung cấp nhiều lựa chọn về phương tiện vận chuyển, từ xe tải, tàu biển, đến máy bay</i>
                     <div class="btn-box">
                       <a href="Our_service.html" class="btn1">
                         Xem thêm
@@ -90,9 +89,7 @@
                     <h1>
                       Giá cả linh hoạt
                     </h1>
-                    <p>
-                      Có thể lựa chọn gói dịch vụ với mức giá phù hợp với nhu cầu thực tế
-                    </p>
+                    <i>Có thể lựa chọn gói dịch vụ với mức giá phù hợp với nhu cầu thực tế</i>
                     <div class="btn-box">
                       <a href="Price.html" class="btn1">
                         Xem thêm
@@ -111,9 +108,9 @@
                     <h1>
                       Giao hàng tận nơi
                     </h1>
-                    <p>
+                    <i>
                       Có thể nhận hàng tại địa chỉ mong muốn giúp giảm bớt thời gian và công sức.                   
-                    </p>
+                    </i>
                     <div class="btn-box">
                       <a href="Contact_us.html" class="btn1">
                         Xem thêm
@@ -142,7 +139,7 @@
           <h2>
             <span>Dịch vụ</span> của chúng tôi
           </h2>
-          <p>
+          <p style="margin-top: 10px;">
             Hãy tin tưởng để chúng tôi giải quyết mọi nhu cầu vận chuyển của bạn</p>
         </div>
         <div class="row">
@@ -234,7 +231,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6 ">
+        <div class="col-md-6 " >
           <div class="img-box">
             <img src="img/about-img.jpg" alt="">
           </div>
@@ -242,9 +239,11 @@
 
       </div>
     </div>
+    <div id="searchForm"></div>
+
   </section>
 
-  <section class="track_section layout_padding">
+  <section class="track_section layout_padding" >
     <div class="track_bg_box">
       <img src="img/track-bg.jpg" alt="">
     </div>
@@ -257,11 +256,11 @@
             </h2>
           </div>
           <br>          
-          <form action="">
+          <form>
             <input type="text" placeholder="Nhập mã đơn hàng bạn cần tra cứu"/>
-            <button type="submit">
-              Tìm kiếm
-            </button>
+              <button type="submit">
+                Tìm kiếm
+              </button>
           </form>
         </div>
       </div>
@@ -307,7 +306,9 @@
         <div class="col-lg-7 col-md-6 px-0">
           <div class="map_container">
             <div class="map">
-              <div id="googleMap"></div>
+              <div id="googleMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.748538460395!2d105.74610611007853!3d20.96261118058961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313452efff394ce3%3A0x391a39d4325be464!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBQaGVuaWthYQ!5e0!3m2!1svi!2s!4v1709758753717!5m2!1svi!2s" width="800px" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
             </div>
           </div>
         </div>
@@ -348,30 +349,20 @@
             </div>
             <div class=" col-lg-3 info_col ">
                 <h4>Đăng ký</h4>
-                <form action="#">
-                    <input type="text" placeholder="Nhập email" />
+                <form action="Login_customer.html">
+                  <input type="text" placeholder="Nhập email" />
                     <button type="submit">Đăng ký</button>
                 </form>
             </div>
         </div>
     </div>
   </section>
-  <!-- jQery -->
+
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <!-- popper js -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
-  <!-- bootstrap js -->
   <script type="text/javascript" src="js/bootstrap.js"></script>
-  <!-- owl slider -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <!-- custom js -->
-  <script type="text/javascript" src="js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
-  <!-- End Google Map -->
+  <script src="js/search.js"></script>
 
 </body>
 

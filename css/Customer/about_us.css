@@ -2,6 +2,9 @@
 .layout_padding {
   padding: 90px 0;
 }
+.heading_container {
+  font-size: 22px;
+}
 
 .about_section .img-box {
   position: relative;
