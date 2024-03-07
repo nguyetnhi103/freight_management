@@ -62,7 +62,6 @@ li:hover{
     text-decoration: none;
     display: block;
 }
-
 .menu a:hover, .staff a:hover {
     background-color: #ddd;
 }
@@ -100,13 +99,18 @@ li:hover{
     height: 45px;
     border-radius: 50%;
 }
-.name, .icon-down{
+.name, .log-out{
     margin-top: 30px;
 }
-.icon-down {
-    margin-left: 15px;
-}
-.name span{
+
+.name span, .log-out span{
     font-size: 16px;
     color: var(--grey-color);
+    margin-right: 5px;
+}
+.name span:hover,  .logout-content span:hover{
+    color: var(--blue-color);
+}
+.log-out {
+    margin-left: 20px;
 }
