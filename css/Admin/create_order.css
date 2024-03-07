@@ -3,45 +3,45 @@
 }
 .person-receive, .person-send {
   background-color: var(--white-color);
-  /* background-color: aquamarine; */
-  margin: 0px 10px 20px 20px;
+  margin: 0px 20px 20px 20px;
   padding: 15px;
-  width: 500px;
+  width: 560px;
+}
+
+/* items-order */
+.items-order, .person-transform, .ship {
+  background-color: var(--white-color);
+  margin: 0px 10px 20px 0px;
+  padding: 15px;
+  width: 600px;
 }
 .person-name, .items-name, .transform-name, .items select {
   margin-top: 10px;
 }
 .person label, .items label, label{
-  font-size: 13px;
+  font-size: 15px;
 }
 .person input[type="text"], .items input[type="text"] {
-  padding: 2px 5px;
+  padding: 7px 8px;
 }
 .person input, .form-select{
-  width: 229.8px;
-  margin: 5px 15px 5px 0px;
+  width: 257.5px;
+  margin: 5px 15px 8px 0px;
   color: var(--grey-color);
   position: relative;
   border: 1px solid var(--gray-color) ;
 }
 .items input {
-  width: 275px;
-  margin: 5px 15px 5px 0px;
-  padding: 2px;
+  width: 278px;
+  margin: 5px 15px 8px 0px;
   color: var(--grey-color);
   position: relative;
   border: 1px solid var(--gray-color) ; 
 }
 
-.items-order, .person-transform, .ship {
-  background-color: var(--white-color);
-  /* background-color: aquamarine; */
-  margin: 0px 10px 20px 0px;
-  padding: 15px;
-  width: 597px;
-}
 .items-size {
   background-color: var(--light-color);
+  width: 570px;
   justify-content: space-between;
   padding: 5px 15px 15px 15px;
   border-radius: 5px;
@@ -50,7 +50,8 @@
 }
 
 .items select {
-  width: 175px;
+  width: 170px;
+  padding: 6px 5px;
   color: var(--grey-color);
   border: 1px solid var(--gray-color) ; 
 }
@@ -70,5 +71,23 @@
 }
 .title {
   font-weight: 700;
-  color: var(--blue-color);
+  font-size: 18px;
+  color: var(--turquoise-color);
+}
+
+.detail-add select{
+  padding: 6px 5px;
+}
+.transform-infor select {
+  width: 278px;
+  margin-right: 15px;
+}
+
+#priceDisplay {
+  margin-top: 125px;
+  margin-left: 133px;
+  font-size: 18px;
+  color: var(--turquoise-color);
+  position: absolute;
+  font-weight: 650;
 }

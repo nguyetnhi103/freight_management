@@ -97,7 +97,7 @@
                         
                         <div class="person person-add">
                             <form id="myForm3" onsubmit="showInput(event)">
-                                <input type="text" id="fname3" style="width: 487px; margin-top: 10px;" name="fname3" placeholder="Nhập địa chỉ..." required>
+                                <input type="text" id="fname3" style="width: 530px; margin-top: 10px;" name="fname3" placeholder="Nhập địa chỉ..." required>
                             </form>                           
                         </div>     
 
@@ -141,7 +141,7 @@
                         
                         <div class="person person-add">
                             <form id="myForm6" onsubmit="showInput(event)">
-                                <input type="text" id="fname6" name="fname6" style="width: 487px; margin-top: 10px;" placeholder="Nhập địa chỉ..." required>
+                                <input type="text" id="fname6" name="fname6" style="width: 530px; margin-top: 10px;" placeholder="Nhập địa chỉ..." required>
                             </form>                           
                         </div>  
                     </div>
@@ -169,7 +169,7 @@
                     <div class="items items-weight">
                         <label for="fname9">Khối lượng (kg)</label><br>                                        
                         <form id="myForm9" onsubmit="showInput(event)">
-                            <input type="text" id="fname9" style="width: 576.5px;" name="fname9" placeholder="Nhập tổng khối lượng..." required>
+                            <input type="text" id="fname9" style="width: 571px;" name="fname9" placeholder="Nhập tổng khối lượng..." required>
                         </form>                           
                     </div> 
     
@@ -219,15 +219,23 @@
                     <span class="title">Thông tin vận chuyển</span>
                     <div class="transform-name">
                         <div class="items transform-infor">                              
-                            <form id="myForm13" onsubmit="showInput(event)">
-                                <label for="fname13">Thu hộ COD</label><br>
-                                <input type="text" id="fname13" name="fname13" placeholder="COD..." required>
+                            <form onsubmit="showInput(event)">
+                                <label for="fname13">Loại hình vận chuyển</label><br>
+                                <form action="">
+                                    <select id="shippingMethod" required>
+                                        <option>Chọn loại hình</option>
+                                        <option value="standard">Tiết kiệm</option>
+                                        <option value="express">Nhanh</option>
+                                        <option value="overnight">Hoả tốc</option>
+                                  </select>
+                                  <div id="priceDisplay"></div> 
+                                </form>      
                             </form>
                         </div>
-                        <div class="items transform-num">
+                        <div class="items transform-num" style="margin-top: 4px;">
                             <form id="myForm14" onsubmit="showInput(event)">
-                                <label for="fname14">Tổng tiền hàng</label><br>
-                                <input type="text" id="fname14" name="fname14" placeholder="Nhập số tiền..." required>
+                                <label for="fname14" >Thu hộ COD</label><br>
+                                <input type="text" id="fname14" name="fname14" placeholder="COD..." required>
                             </form>                            
                         </div>
                     </div>
@@ -235,7 +243,7 @@
                     <div class="items transform-note">
                         <form id="myForm15" onsubmit="showInput(event)">
                             <label for="fname15">Ghi chú</label><br>
-                            <input type="text" id="fname15" style="width: 576.5px;" name="fname15" placeholder="Nhập ghi chú...">
+                            <input type="text" id="fname15" style="width: 571px;" name="fname15" placeholder="Nhập ghi chú...">
                         </form>                           
                     </div>  
                 </div>
@@ -257,6 +265,7 @@
 
     <script src="js/sidebar.js"></script>
     <script src="js/create_order.js"></script>
+    <script src="js/shipping.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
     <script src="js/send_address.js"></script>
