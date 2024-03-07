@@ -31,7 +31,7 @@
                 <li><a href="Create_goods.html"><span><i class="fa-regular fa-file-excel"></i>Đơn hàng loạt</span></a></li>
             </ul>
             <li>
-                <a href=""><span><i class="fa-regular fa-folder-closed"></i>Nhập kho</span></a>
+                <a href="Confirm_order.html"><span><i class="fa-regular fa-folder-closed"></i>Xác nhận đơn hàng</span></a>
             </li>
             <button class="toggleButton" onclick="staff_Menu()"><span style="font-size: 16px; color: var(--grey-color);"><i class="fa-regular fa-folder"></i>Nhân viên</span></button>
 
@@ -64,6 +64,36 @@
                 <input type="text" name="q" placeholder="Nhập từ khóa tìm kiếm...">
                 <input type="submit" value="Tìm kiếm">
             </form>   
+        </div>
+        <div class="staff-backgr">
+            <table id="modal_order">
+                <tr>
+                  <th>Mã đơn hàng</th>
+                  <th style="width: 450px;">Họ tên</th> 
+                  <th>Số điện thoại</th>
+                  <th style="width: 1000px;">Địa chỉ</th>
+                  <th>Cước phí</th>
+                  <th>Tổng tiền</th>
+                  <th>Trạng thái</th>
+                </tr>   
+                <tr>
+                    <td>Nguyệt</td>
+                    <td>Nguyễn Thị Nguyệt</td>
+                    <td>0347698575</td>
+                    <td>Thôn 6, Quảng Giao, Quảng Xương, Thanh Hóa</td>
+                    <td>12000đ</td>
+                    <td>212000đ</td>
+                    <td>
+                        <select id="shippingMethod" required>
+                            <option value="warehouse">Đã nhập kho</option>
+                            <option value="shipping">Đang giao hàng</option>
+                            <option value="received">Đã nhận hàng</option>
+                            <option value="cancel">Hủy đơn</option>
+                        </select>
+                    </td>
+                </tr>    
+            </table>
+            
         </div>
     </nav>
 
