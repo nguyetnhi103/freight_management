@@ -58,28 +58,55 @@
                 </div>
             </div>
         </div>
-        <div class="add_staff">
-            <form action="" method="get">
-                <input type="submit" value="Thêm nhân viên">
-            </form>   
+        <button class="input add_staff" id="myBtn">Thêm nhân viên</button>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+        <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">×</span>
+                <form>
+                    <label for="name">Tên nhân viên</label>
+                        <input type="text" id="name" name="name">
+                    <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email"><br>
+                    <label for="phone">Số điện thoại</label><br>
+                        <input type="tel" id="phone" name="phone"><br>
+                    <label for="code">Mã nhân viên</label><br>
+                        <input type="text" id="code" name="code"><br>
+                    <label for="code">Chức vụ</label><br>
+                    <select id="shippingMethod" required>
+                        <option value="warehouse">Chọn chức vụ</option>
+                        <option value="shipping">Nhân viên</option>
+                        <option value="received">Shipper</option>
+                    </select><br>
+                <input class="input confirml" type="submit" value="Xác nhận">
+                <input class="input confirml" type="submit" value="Hủy">
+                </form>
+            </div>
+  
         </div>
         <div class="staff-backgr">
             <table>
                 <tr>
-                  <th>STT</th>
+                  <th>Mã nhân viên</th>
                   <th>Họ tên</th> 
                   <th>Số điện thoại</th>
                   <th>Email</th>
-                  <th style="text-align: center"></th>
+                  <th>Chức vụ</th>
+                  <th></i></th>
                 </tr>   
                 <tr>
-                    <td>19h00</td>
-                    <td>19h00</td>
-                    <td>19h00</td>
-                    <td>19h00</td>
+                    <td>NV001</td>
+                    <td>Nguyễn Thị Nguyệt</td>
+                    <td>0347698675</td>
+                    <td>nguyetnhi10032003@gmail.com</td>
+                    <td>Chủ doanh nghiệp</td>
+                    <!-- Nút xóa sẽ được đưa vào giữa -->
+                    <td style="text-align: center"><i class="fa-solid fa-trash-can"></i></td>
                 </tr>    
             </table>
         </div>
     <script src="js/sidebar.js"></script>
+    <script src="js/add_staff.js"></script>
 </body>
 </html>

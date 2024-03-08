@@ -9,6 +9,10 @@
     width: 100%;
     z-index: 3;
 }
+.logo img {
+  height: 58px;
+  margin: 0px 20px 0 30px;
+}
 .navbar img {
     margin-left: 20px;
 }
@@ -43,7 +47,7 @@
   transition: all .3s;
 }
 .custom_nav-container .navbar-nav .nav-item .nav-link:hover {
-    color: var(--blue-color);
+    color: var(--turquoise-color);
 }
 
 .container {
@@ -109,6 +113,9 @@
     line-height: 1.5;
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.nav-item i{
+  color: var(--turquoise-color);
 }
 .navbar {
     position: relative;

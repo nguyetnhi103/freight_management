@@ -12,9 +12,15 @@
     box-shadow: 2px 2px 2px grey;
 }
 .upload-excel input {
+    background-color: var(--sky-color);
+}
+.upload-excel input:hover {
     background-color: var(--blue-color);
 }
 .upload-file input {
+    background-color: var(--turquoise-color);
+}
+.upload-file input:hover {
     background-color: var(--green-color);
 }
 .goods-backgr {

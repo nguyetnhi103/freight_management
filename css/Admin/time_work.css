@@ -29,10 +29,14 @@ hr {
 .create_shift input {
     color: var(--white-color);
     margin: 20px 100px 20px 0;
+    border: none;
     padding: 10px 15px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
-    background-color: var(--blue-color);
+    background-color: var(--turquoise-color);
+}
+.create_shift input:hover {
+    background-color: var(--green-color);
 }
 
 .list_time {

@@ -66,14 +66,14 @@ input{
 }
 .form input.button{
   color: #fff;
-  background: var(--blue-color);
+  background: var(--turquoise-color);
   height: 50px;
   letter-spacing: 1px;
   margin-top: 1.5rem;
   cursor: pointer;
 }
 .form input.button:hover{
-  background: var(--nblue-color);
+  background: var(--green-color);
 }
 .signup{
   font-size: 14px;

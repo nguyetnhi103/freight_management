@@ -12,8 +12,8 @@ body {
     background-color: white;
 }
 .logo img {
-    height: 48px;
-    margin: 40px 20px 30px 50px;
+    height: 58px;
+    margin: 40px 20px 30px 30px;
 
 }
 .sidebar #sidebar_menu li a{
@@ -109,7 +109,7 @@ li:hover{
     margin-right: 5px;
 }
 .name span:hover,  .logout-content span:hover{
-    color: var(--blue-color);
+    color: var(--turquoise-color);
 }
 .log-out {
     margin-left: 20px;
